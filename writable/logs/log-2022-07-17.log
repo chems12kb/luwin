@@ -1,0 +1,126 @@
+CRITICAL - 2022-07-17 17:28:35 --> Undefined variable $datos
+in APPPATH\Views\compras\nuevo.php on line 77.
+ 1 APPPATH\Views\compras\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Views\\compras\\nuevo.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-17 17:28:53 --> Undefined variable $datos
+in APPPATH\Views\compras\nuevo.php on line 77.
+ 1 APPPATH\Views\compras\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Views\\compras\\nuevo.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-17 17:29:16 --> Unmatched '}'
+in APPPATH\Views\compras\nuevo.php on line 90.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 3 APPPATH\Controllers\Compras.php(31): view('compras/nuevo')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->nuevo()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-17 17:29:17 --> Unmatched '}'
+in APPPATH\Views\compras\nuevo.php on line 90.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 3 APPPATH\Controllers\Compras.php(31): view('compras/nuevo')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->nuevo()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-17 17:29:25 --> Unmatched '}'
+in APPPATH\Views\compras\nuevo.php on line 90.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 3 APPPATH\Controllers\Compras.php(31): view('compras/nuevo')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->nuevo()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-17 17:29:40 --> Undefined variable $dato
+in APPPATH\Views\compras\nuevo.php on line 80.
+ 1 APPPATH\Views\compras\nuevo.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Views\\compras\\nuevo.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-17 17:29:41 --> Undefined variable $dato
+in APPPATH\Views\compras\nuevo.php on line 80.
+ 1 APPPATH\Views\compras\nuevo.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Views\\compras\\nuevo.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-17 17:30:16 --> Array to string conversion
+in APPPATH\Views\compras\nuevo.php on line 80.
+ 1 APPPATH\Views\compras\nuevo.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\compras\\nuevo.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-17 17:30:17 --> Array to string conversion
+in APPPATH\Views\compras\nuevo.php on line 80.
+ 1 APPPATH\Views\compras\nuevo.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\compras\\nuevo.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-17 17:42:17 --> Array to string conversion
+in APPPATH\Views\compras\nuevo.php on line 80.
+ 1 APPPATH\Views\compras\nuevo.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\compras\\nuevo.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-17 17:42:19 --> Array to string conversion
+in APPPATH\Views\compras\nuevo.php on line 80.
+ 1 APPPATH\Views\compras\nuevo.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\compras\\nuevo.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-17 17:42:20 --> Array to string conversion
+in APPPATH\Views\compras\nuevo.php on line 80.
+ 1 APPPATH\Views\compras\nuevo.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\compras\\nuevo.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

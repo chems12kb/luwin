@@ -1,0 +1,314 @@
+CRITICAL - 2022-07-19 01:26:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 01:26:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 01:35:25 --> Class "FPDF" not found
+in APPPATH\Controllers\Unidades.php on line 129.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->generaMinimosPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 01:53:20 --> FPDF error: Incorrect unit: m
+in APPPATH\ThirdParty\fpdf\fpdf.php on line 271.
+ 1 APPPATH\ThirdParty\fpdf\fpdf.php(127): FPDF->Error('Incorrect unit: m')
+ 2 APPPATH\Controllers\Unidades.php(129): FPDF->__construct('P', 'm', 'letter')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->generaMinimosPdf()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 01:53:22 --> FPDF error: Incorrect unit: m
+in APPPATH\ThirdParty\fpdf\fpdf.php on line 271.
+ 1 APPPATH\ThirdParty\fpdf\fpdf.php(127): FPDF->Error('Incorrect unit: m')
+ 2 APPPATH\Controllers\Unidades.php(129): FPDF->__construct('P', 'm', 'letter')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->generaMinimosPdf()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 02:24:36 --> FPDF error: Unknown page size: in
+in APPPATH\ThirdParty\fpdf\fpdf.php on line 271.
+ 1 APPPATH\ThirdParty\fpdf\fpdf.php(1070): FPDF->Error('Unknown page size: in')
+ 2 APPPATH\ThirdParty\fpdf\fpdf.php(131): FPDF->_getpagesize('in')
+ 3 APPPATH\Controllers\Unidades.php(131): FPDF->__construct('P', 'cm', 'in')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->generaMinimosPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 02:57:39 --> Undefined constant "App\Controllers\images"
+in APPPATH\Controllers\Unidades.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->generaMinimosPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 03:38:49 --> Undefined variable $id
+in APPPATH\Controllers\Unidades.php on line 148.
+ 1 APPPATH\Controllers\Unidades.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Unidades.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->generaMinimosPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 03:42:03 --> Call to undefined method App\Models\UnidadesModel::index
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Unidades.php(148): CodeIgniter\Model->__call('index', [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->generaMinimosPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 03:43:54 --> Call to undefined method App\Models\UnidadesModel::index
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Unidades.php(148): CodeIgniter\Model->__call('index', [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->generaMinimosPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 03:51:25 --> Call to undefined method App\Models\UnidadesModel::index
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Unidades.php(148): CodeIgniter\Model->__call('index', [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->generaMinimosPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 04:38:42 --> Undefined property: App\Controllers\clientes::$unidades
+in APPPATH\Controllers\Clientes.php on line 94.
+ 1 APPPATH\Controllers\Clientes.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\clientes::$unidades', 'APPPATH\\Controllers\\Clientes.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\clientes->mostrarclientes()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 05:24:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 05:24:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 05:25:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 05:25:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 05:25:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 05:25:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 05:26:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 05:26:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 07:12:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 10.
+ 1 APPPATH\Views\clientes\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\clientes\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(49): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\clientes->editar('FCPATH\\js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 07:12:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 10.
+ 1 APPPATH\Views\clientes\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\clientes\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(49): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\clientes->editar('FCPATH\\js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 07:40:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 07:40:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 07:59:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 07:59:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 08:24:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 08:24:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 08:24:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 08:24:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 08:40:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 08:40:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\unidades\editar.php on line 10.
+ 1 APPPATH\Views\unidades\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\unidades\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('unidades/editar', [], true)
+ 5 APPPATH\Controllers\Unidades.php(85): view('unidades/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar('FCPATH\\js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

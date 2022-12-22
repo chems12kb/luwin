@@ -1,0 +1,158 @@
+CRITICAL - 2022-07-13 16:01:12 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 17:19:47 --> Undefined array key "nombre_corto"
+in APPPATH\Views\clientes\editar.php on line 21.
+ 1 APPPATH\Views\clientes\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_corto"', 'APPPATH\\Views\\clientes\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(49): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\clientes->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 18:03:51 --> Invalid file: configuracion/configuracion.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('configuracion/configuracion.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 3 APPPATH\Controllers\Configuracion.php(22): view('configuracion/configuracion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 18:04:34 --> Invalid file: configuracion/configuracion.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('configuracion/configuracion.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 3 APPPATH\Controllers\Configuracion.php(22): view('configuracion/configuracion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 18:04:35 --> Invalid file: configuracion/configuracion.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('configuracion/configuracion.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 3 APPPATH\Controllers\Configuracion.php(22): view('configuracion/configuracion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 18:04:51 --> Invalid file: configuracion/configuracion.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('configuracion/configuracion.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 3 APPPATH\Controllers\Configuracion.php(22): view('configuracion/configuracion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 18:07:25 --> syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH\Controllers\Configuracion.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Configuracion.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Configuracion')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Configuracion')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Configuracion', true)
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-13 18:28:23 --> Column 'nombre' cannot be null
+CRITICAL - 2022-07-13 18:28:23 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `unidades` (`nombre`, `nombre_corto`, `preciod`, `marca`, `fecha_alta`, `fecha_edit`) VALUES (NULL, NULL, NULL, NULL, \'2022-07-13 18:28:23\', \'2022-07-13 18:28:23\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `unidades` (`nombre`, `nombre_corto`, `preciod`, `marca`, `fecha_alta`, `fecha_edit`) VALUES (NULL, NULL, NULL, NULL, \'2022-07-13 18:28:23\', \'2022-07-13 18:28:23\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `unidades` (`nombre`, `nombre_corto`, `preciod`, `marca`, `fecha_alta`, `fecha_edit`) VALUES (NULL, NULL, NULL, NULL, \'2022-07-13 18:28:23\', \'2022-07-13 18:28:23\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `unidades` (`nombre`, `nombre_corto`, `preciod`, `marca`, `fecha_alta`, `fecha_edit`) VALUES (:nombre:, :nombre_corto:, :preciod:, :marca:, :fecha_alta:, :fecha_edit:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Unidades.php(38): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Unidades->insertar()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 18:40:47 --> Invalid file: configuracion/configuracion.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('configuracion/configuracion.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 3 APPPATH\Controllers\Configuracion.php(19): view('configuracion/configuracion')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 21:08:33 --> Undefined property: App\Controllers\Compras::$unidades
+in APPPATH\Controllers\Compras.php on line 18.
+ 1 APPPATH\Controllers\Compras.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Compras::$unidades', 'APPPATH\\Controllers\\Compras.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 22:51:46 --> Undefined array key "nombre_corto"
+in APPPATH\Views\compras\compras.php on line 33.
+ 1 APPPATH\Views\compras\compras.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_corto"', 'APPPATH\\Views\\compras\\compras.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\compras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/compras', [], true)
+ 5 APPPATH\Controllers\Compras.php(22): view('compras/compras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 22:52:37 --> Undefined array key "nombre_corto"
+in APPPATH\Views\compras\compras.php on line 33.
+ 1 APPPATH\Views\compras\compras.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_corto"', 'APPPATH\\Views\\compras\\compras.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\compras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/compras', [], true)
+ 5 APPPATH\Controllers\Compras.php(22): view('compras/compras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 23:00:27 --> Undefined array key "nombre_corto"
+in APPPATH\Views\compras\compras.php on line 33.
+ 1 APPPATH\Views\compras\compras.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_corto"', 'APPPATH\\Views\\compras\\compras.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\compras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/compras', [], true)
+ 5 APPPATH\Controllers\Compras.php(22): view('compras/compras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 23:02:22 --> Undefined array key "nombre_corto"
+in APPPATH\Views\compras\compras.php on line 33.
+ 1 APPPATH\Views\compras\compras.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_corto"', 'APPPATH\\Views\\compras\\compras.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\compras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/compras', [], true)
+ 5 APPPATH\Controllers\Compras.php(22): view('compras/compras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 23:04:11 --> Undefined array key "nombre_corto"
+in APPPATH\Views\compras\compras.php on line 33.
+ 1 APPPATH\Views\compras\compras.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_corto"', 'APPPATH\\Views\\compras\\compras.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\compras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/compras', [], true)
+ 5 APPPATH\Controllers\Compras.php(22): view('compras/compras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-13 23:35:05 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Iniciop.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Iniciop.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Iniciop')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Iniciop')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Iniciop', true)
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
